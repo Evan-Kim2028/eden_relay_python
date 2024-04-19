@@ -2,14 +2,14 @@
 name = "eden-relay-python"
 version = "0.1.0"
 description = "Add your description here"
-authors = [
-    { name = "Evan K", email = "ekcopersonal@gmail.com" }
-]
+authors = [{ name = "Evan K", email = "ekcopersonal@gmail.com" }]
 dependencies = [
     "polars>=0.20.15",
     "notebook>=7.1.1",
     "ipykernel>=6.29.3",
     "bigframes>=0.24.0",
+    "google-cloud-storage>=2.16.0",
+
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
